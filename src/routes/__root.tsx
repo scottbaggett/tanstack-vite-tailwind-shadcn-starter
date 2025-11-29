@@ -10,11 +10,11 @@ function RootComponent() {
   return (
     <>
       <div className="border-b px-4 h-12 flex justify-between text-lg items-center">
-        <div className="flex gap-4 text-muted-foreground">
+        <div className="flex gap-4 text-muted-foreground font-mono text-sm">
           <Link
             to="/"
             activeProps={{
-              className: "text-foreground",
+              className: "text-foreground font-bold",
             }}
             activeOptions={{ exact: true }}
           >
@@ -23,7 +23,7 @@ function RootComponent() {
           <Link
             to="/about"
             activeProps={{
-              className: "text-foreground",
+              className: "text-foreground font-bold",
             }}
           >
             About
