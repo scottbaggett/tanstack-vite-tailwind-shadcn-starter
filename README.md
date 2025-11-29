@@ -67,9 +67,11 @@ src/
 - Path aliases (`@/*` maps to `src/*`)
 - Router DevTools in development
 
-## Surface Colors
+## Surface Colors 
 
 This template uses [Radix UI Colors](https://www.radix-ui.com/colors) for a consistent surface color system. The gray palette provides 12 steps that automatically adapt to light and dark modes.
+
+[Radix Custom Palette Generator](https://www.radix-ui.com/colors/custom)
 
 | Surface | Theme Token | Usage |
 |---------|-------------|-------|
