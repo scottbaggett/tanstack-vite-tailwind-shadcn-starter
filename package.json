@@ -1,11 +1,11 @@
 {
-  "name": "vexflow",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "tanstack-vite-tailwind-shadcn-starter",
+  "author": "Scott Baggett <hello@scottbaggett.com>",
+  "license": "MIT",
+  "description": "A template for a TanStack Router + Vite + Tailwind CSS + ShadCN project",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "format": "biome format --write"
   },
