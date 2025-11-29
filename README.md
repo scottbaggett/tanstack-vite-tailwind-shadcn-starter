@@ -36,7 +36,6 @@ pnpm format
 ```
 src/
 ├── main.tsx           # App entry point with router setup
-├── styles.css         # Global styles and CSS variables
 ├── routeTree.gen.ts   # Auto-generated route tree
 ├── components/
 │   ├── theme-provider.tsx  # Theme context provider
@@ -49,6 +48,9 @@ src/
 │   ├── index.tsx      # Home page (/)
 │   ├── about.tsx      # About page (/about)
 │   └── main.tsx       # Main page (/main)
+├── styles/
+│   ├── theme.css      # Theme tokens and Tailwind config
+│   └── colors/        # Radix color palettes (gray, red, etc.)
 └── assets/
     └── react.svg      # Static assets
 ```
@@ -63,6 +65,33 @@ src/
 - CSS variables for theming (OKLCH color space)
 - Path aliases (`@/*` maps to `src/*`)
 - Router DevTools in development
+
+## Surface Colors
+
+This template uses [Radix UI Colors](https://www.radix-ui.com/colors) for a consistent surface color system. The gray palette provides 12 steps that automatically adapt to light and dark modes.
+
+| Surface | Theme Token | Usage |
+|---------|-------------|-------|
+| `surface-1` | `background` | App background |
+| `surface-2` | `card`, `popover` | Cards, elevated surfaces |
+| `surface-3` | `secondary` | Subtle backgrounds |
+| `surface-4` | `muted` | Muted elements |
+| `surface-5` | `accent`, `border` | Borders, dividers |
+| `surface-6` | `input` | Input backgrounds |
+| `surface-7` | `ring` | Focus rings |
+| `surface-8` | — | Solid backgrounds |
+| `surface-9-11` | — | Secondary text |
+| `surface-12` | `foreground`, `primary` | Primary text |
+
+ShadCN components automatically use the correct surface colors through theme tokens. You can also use surface colors directly:
+
+```tsx
+<div className="bg-surface-2 text-surface-12 border-surface-5">
+  Card content
+</div>
+```
+
+Color palettes are defined in `src/styles/colors/` and mapped to surface tokens in `src/styles/theme.css`.
 
 ## Adding New Routes
 
