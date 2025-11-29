@@ -18,7 +18,13 @@
     "jsx": "react-jsx",
 
     /* Strict type checking */
-    "strictNullChecks": true
+    "strictNullChecks": true,
+
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"]
 }
