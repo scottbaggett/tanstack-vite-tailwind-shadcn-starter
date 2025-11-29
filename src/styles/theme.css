@@ -74,14 +74,14 @@
   --primary-foreground: var(--surface-1);
   --secondary: var(--surface-3);
   --secondary-foreground: var(--surface-12);
-  --muted: var(--surface-4);
-  --muted-foreground: var(--surface-12);
-  --accent: var(--surface-5);
+  --muted: var(--surface-5);
+  --muted-foreground: var(--surface-10);
+  --accent: var(--surface-4);
   --accent-foreground: var(--surface-12);
   --destructive: var(--red-10);
-  --border: var(--surface-5);
-  --input: var(--surface-6);
-  --ring: var(--surface-7);
+  --border: var(--surface-7);
+  --input: var(--surface-5);
+  --ring: var(--surface-10);
   --chart-1: var(--chart-1);
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -91,7 +91,6 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  --surface-0: white;
   --surface-1: var(--gray-1);
   --surface-2: var(--gray-2);
   --surface-3: var(--gray-3);
@@ -107,7 +106,6 @@
 }
 
 .dark {
-  --surface-0: black;
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
@@ -128,13 +126,14 @@
     @apply border-border outline-ring/50;
   }
   body {
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     @apply bg-background text-foreground;
   }
-}
-
-body {
-  font-family: var(--font-sans);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  html,
+  body {
+    min-height: 100vh;
+  }
 }

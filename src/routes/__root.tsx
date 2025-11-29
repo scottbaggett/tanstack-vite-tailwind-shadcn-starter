@@ -9,26 +9,7 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <>
-      <div className="border-b px-4 h-12 flex justify-between text-lg items-center">
-        <div className="flex gap-4 text-muted-foreground font-mono text-sm">
-          <Link
-            to="/"
-            activeProps={{
-              className: "text-foreground font-bold",
-            }}
-            activeOptions={{ exact: true }}
-          >
-            Home
-          </Link>{" "}
-          <Link
-            to="/about"
-            activeProps={{
-              className: "text-foreground font-bold",
-            }}
-          >
-            About
-          </Link>
-        </div>
+      <div className="fixed top-4 right-4 z-10">
         <ModeToggle />
       </div>
       <Outlet />
