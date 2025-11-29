@@ -4,7 +4,7 @@ A modern, full-featured starter template for building React applications with Ta
 
 ## Tech Stack
 
-- **[React](https://react.dev/)** - Latest React with modern featureshttps://www.typescriptlang.org/docs/
+- **[React](https://react.dev/)** - Latest React with modern features
 - **[TanStack Router](https://tanstack.com/router/latest)** - Type-safe routing with automatic code splitting
 - **[Vite 7](https://vite.dev)** - Fast build tool and dev server
 - **[Tailwind CSS v4.x](https://www.typescriptlang.org/docs/)** - Utility-first CSS framework
