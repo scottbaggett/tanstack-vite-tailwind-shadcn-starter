@@ -8,6 +8,7 @@ A modern, full-featured starter template for building React applications with Ta
 - **[TanStack Router](https://tanstack.com/router/latest)** - Type-safe routing with automatic code splitting
 - **[Vite 7](https://vite.dev)** - Fast build tool and dev server
 - **[Tailwind CSS v4.x](https://www.typescriptlang.org/docs/)** - Utility-first CSS framework
+- **[Radix Colors](https://radix.ui/colors)** - Comprehensive color system for designing beautiful, accessible websites and apps
 - **[ShadCN UI](https://ui.shadcn.com/)** - Accessible, customizable components
 - **[TypeScript](https://www.typescriptlang.org/docs/)** - Full type safety
 - **[Biome](https://biomejs.dev/)** - Fast linting and formatting
