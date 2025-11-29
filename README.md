@@ -4,13 +4,13 @@ A modern, full-featured starter template for building React applications with Ta
 
 ## Tech Stack
 
-- **React 19** - Latest React with modern features
-- **TanStack Router** - Type-safe routing with automatic code splitting
-- **Vite 7** - Fast build tool and dev server
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **ShadCN UI** - Accessible, customizable components
-- **TypeScript** - Full type safety
-- **Biome** - Fast linting and formatting
+- **[React](https://react.dev/)** - Latest React with modern featureshttps://www.typescriptlang.org/docs/
+- **[TanStack Router](https://tanstack.com/router/latest)** - Type-safe routing with automatic code splitting
+- **[Vite 7](https://vite.dev)** - Fast build tool and dev server
+- **[Tailwind CSS v4.x](https://www.typescriptlang.org/docs/)** - Utility-first CSS framework
+- **[ShadCN UI](https://ui.shadcn.com/)** - Accessible, customizable components
+- **[TypeScript](https://www.typescriptlang.org/docs/)** - Full type safety
+- **[Biome](https://biomejs.dev/)** - Fast linting and formatting
 
 ## Getting Started
 
