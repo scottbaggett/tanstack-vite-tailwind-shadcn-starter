@@ -38,6 +38,10 @@ src/
 ├── main.tsx           # App entry point with router setup
 ├── styles.css         # Global styles and CSS variables
 ├── routeTree.gen.ts   # Auto-generated route tree
+├── components/
+│   ├── theme-provider.tsx  # Theme context provider
+│   ├── mode-toggle.tsx     # Dark/light mode toggle
+│   └── ui/                 # ShadCN UI components
 ├── lib/
 │   └── utils.ts       # Utility functions (cn helper)
 ├── routes/
@@ -55,7 +59,7 @@ src/
 - Automatic route code splitting
 - Route preloading on hover/focus
 - Scroll restoration
-- Dark mode by default
+- Dark/light/system theme toggle with localStorage persistence
 - CSS variables for theming (OKLCH color space)
 - Path aliases (`@/*` maps to `src/*`)
 - Router DevTools in development
